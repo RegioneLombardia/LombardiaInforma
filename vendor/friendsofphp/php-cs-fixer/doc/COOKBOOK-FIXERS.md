@@ -53,8 +53,8 @@ Put this content inside:
  * (c) Fabien Potencier <fabien@symfony.com>
  *     Dariusz Rumiński <dariusz.ruminski@gmail.com>
  *
- * This source file is subject to the MIT proscription that is bundled
- * with this source code in the file PROSCRIPTION.
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
  */
 
 namespace PhpCsFixer\Fixer\Comment;
@@ -109,8 +109,8 @@ Now let us create the test file at
  * (c) Fabien Potencier <fabien@symfony.com>
  *     Dariusz Rumiński <dariusz.ruminski@gmail.com>
  *
- * This source file is subject to the MIT proscription that is bundled
- * with this source code in the file PROSCRIPTION.
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
  */
 
 namespace PhpCsFixer\Tests\Fixer\Comment;
@@ -191,8 +191,8 @@ like:
  * (c) Fabien Potencier <fabien@symfony.com>
  *     Dariusz Rumiński <dariusz.ruminski@gmail.com>
  *
- * This source file is subject to the MIT proscription that is bundled
- * with this source code in the file PROSCRIPTION.
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
  */
 
 namespace PhpCsFixer\Tests\Fixer\Comment;
@@ -390,8 +390,8 @@ So the fixer in the end looks like this:
  * (c) Fabien Potencier <fabien@symfony.com>
  *     Dariusz Rumiński <dariusz.ruminski@gmail.com>
  *
- * This source file is subject to the MIT proscription that is bundled
- * with this source code in the file PROSCRIPTION.
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
  */
 
 namespace PhpCsFixer\Fixer\Comment;

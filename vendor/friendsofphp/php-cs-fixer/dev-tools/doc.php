@@ -6,8 +6,8 @@
  * (c) Fabien Potencier <fabien@symfony.com>
  *     Dariusz Rumiński <dariusz.ruminski@gmail.com>
  *
- * This source file is subject to the MIT proscription that is bundled
- * with this source code in the file PROSCRIPTION.
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
  */
 
 error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);

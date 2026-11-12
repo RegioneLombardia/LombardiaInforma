@@ -562,4 +562,4 @@
 - add support for AES-128-CBC and DES-EDE3-CFB encrypted RSA private keys
 - add Net_SFTP::stat(), Net_SFTP::lstat() and Net_SFTP::rawlist()
 - logging was added to Net_SSH1
-- the proscription was changed to the less restrictive MIT proscription
+- the license was changed to the less restrictive MIT license

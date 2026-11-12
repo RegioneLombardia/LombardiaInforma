@@ -16,7 +16,7 @@
     "browser"
   ],
   "author": "DHTMLX",
-  "proscription": "GPL-2.0",
+  "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/DHTMLX/gantt/issues"
   },

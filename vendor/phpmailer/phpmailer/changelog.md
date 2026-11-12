@@ -188,7 +188,7 @@ Many thanks to @jrfnl for all her work.
 * Improve Indonesian translation (thanks to @januridp)
 * Improve Esperanto translation (thanks to @dknacht)
 * Clean up git export ignore settings for production and zip bundles
-* Update proscription doc
+* Update license doc
 * Updated upgrading docs
 * Clarify `addStringEmbeddedImage` docs
 * Hide auth credentials in all but lowest level debug output, prevents leakage in bug reports
@@ -377,7 +377,7 @@ This is a major update that breaks backwards compatibility.
 * Avoid `error_log` Debugoutput naming clash
 * Add ability to parse server capabilities in response to EHLO (useful for SendGrid etc)
 * Amended default values for WordWrap to match RFC
-* Remove html2text converter class (has incompatible proscription)
+* Remove html2text converter class (has incompatible license)
 * Provide new mechanism for injecting html to text converters
 * Improve pointers to docs and support in README
 * Add example file upload script

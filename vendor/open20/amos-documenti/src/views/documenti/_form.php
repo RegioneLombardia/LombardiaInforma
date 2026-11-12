@@ -521,10 +521,10 @@ $this->registerJs($script);
                 <?php if( $enableAgid ) : ?>
                     <div class="col-md-6 ">
                         <?=
-                            $form->field($model, 'distribution_proscription')->textInput([
+                            $form->field($model, 'distribution_license')->textInput([
                                 'maxlength' => true, 
-                                'placeholder' => AmosDocumenti::t('amosdocumenti', 'distribution_proscription')])
-                            ->label(AmosDocumenti::t('amosdocumenti', 'distribution_proscription'))
+                                'placeholder' => AmosDocumenti::t('amosdocumenti', 'distribution_license')])
+                            ->label(AmosDocumenti::t('amosdocumenti', 'distribution_license'))
                         ?>
                     </div>
                 <?php endif; ?>

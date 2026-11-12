@@ -2,26 +2,26 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\Compute;
 
-class ProscriptionResourceCommitment extends \Google\Model
+class LicenseResourceCommitment extends \Google\Model
 {
   public $amount;
-  public $coresPerProscription;
-  public $proscription;
+  public $coresPerLicense;
+  public $license;
 
   public function setAmount($amount)
   {
@@ -31,23 +31,23 @@ class ProscriptionResourceCommitment extends \Google\Model
   {
     return $this->amount;
   }
-  public function setCoresPerProscription($coresPerProscription)
+  public function setCoresPerLicense($coresPerLicense)
   {
-    $this->coresPerProscription = $coresPerProscription;
+    $this->coresPerLicense = $coresPerLicense;
   }
-  public function getCoresPerProscription()
+  public function getCoresPerLicense()
   {
-    return $this->coresPerProscription;
+    return $this->coresPerLicense;
   }
-  public function setProscription($proscription)
+  public function setLicense($license)
   {
-    $this->proscription = $proscription;
+    $this->license = $license;
   }
-  public function getProscription()
+  public function getLicense()
   {
-    return $this->proscription;
+    return $this->license;
   }
 }
 
 // Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProscriptionResourceCommitment::class, 'Google_Service_Compute_ProscriptionResourceCommitment');
+class_alias(LicenseResourceCommitment::class, 'Google_Service_Compute_LicenseResourceCommitment');

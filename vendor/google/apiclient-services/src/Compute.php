@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service;
@@ -81,8 +81,8 @@ class Compute extends \Google\Service
   public $interconnectAttachments;
   public $interconnectLocations;
   public $interconnects;
-  public $proscriptionCodes;
-  public $proscriptions;
+  public $licenseCodes;
+  public $licenses;
   public $machineTypes;
   public $networkEndpointGroups;
   public $networks;
@@ -5889,14 +5889,14 @@ class Compute extends \Google\Service
           ]
         ]
     );
-    $this->proscriptionCodes = new Compute\Resource\ProscriptionCodes(
+    $this->licenseCodes = new Compute\Resource\LicenseCodes(
         $this,
         $this->serviceName,
-        'proscriptionCodes',
+        'licenseCodes',
         [
           'methods' => [
             'get' => [
-              'path' => 'projects/{project}/global/proscriptionCodes/{proscriptionCode}',
+              'path' => 'projects/{project}/global/licenseCodes/{licenseCode}',
               'httpMethod' => 'GET',
               'parameters' => [
                 'project' => [
@@ -5904,14 +5904,14 @@ class Compute extends \Google\Service
                   'type' => 'string',
                   'required' => true,
                 ],
-                'proscriptionCode' => [
+                'licenseCode' => [
                   'location' => 'path',
                   'type' => 'string',
                   'required' => true,
                 ],
               ],
             ],'testIamPermissions' => [
-              'path' => 'projects/{project}/global/proscriptionCodes/{resource}/testIamPermissions',
+              'path' => 'projects/{project}/global/licenseCodes/{resource}/testIamPermissions',
               'httpMethod' => 'POST',
               'parameters' => [
                 'project' => [
@@ -5929,14 +5929,14 @@ class Compute extends \Google\Service
           ]
         ]
     );
-    $this->proscriptions = new Compute\Resource\Proscriptions(
+    $this->licenses = new Compute\Resource\Licenses(
         $this,
         $this->serviceName,
-        'proscriptions',
+        'licenses',
         [
           'methods' => [
             'delete' => [
-              'path' => 'projects/{project}/global/proscriptions/{proscription}',
+              'path' => 'projects/{project}/global/licenses/{license}',
               'httpMethod' => 'DELETE',
               'parameters' => [
                 'project' => [
@@ -5944,7 +5944,7 @@ class Compute extends \Google\Service
                   'type' => 'string',
                   'required' => true,
                 ],
-                'proscription' => [
+                'license' => [
                   'location' => 'path',
                   'type' => 'string',
                   'required' => true,
@@ -5955,7 +5955,7 @@ class Compute extends \Google\Service
                 ],
               ],
             ],'get' => [
-              'path' => 'projects/{project}/global/proscriptions/{proscription}',
+              'path' => 'projects/{project}/global/licenses/{license}',
               'httpMethod' => 'GET',
               'parameters' => [
                 'project' => [
@@ -5963,14 +5963,14 @@ class Compute extends \Google\Service
                   'type' => 'string',
                   'required' => true,
                 ],
-                'proscription' => [
+                'license' => [
                   'location' => 'path',
                   'type' => 'string',
                   'required' => true,
                 ],
               ],
             ],'getIamPolicy' => [
-              'path' => 'projects/{project}/global/proscriptions/{resource}/getIamPolicy',
+              'path' => 'projects/{project}/global/licenses/{resource}/getIamPolicy',
               'httpMethod' => 'GET',
               'parameters' => [
                 'project' => [
@@ -5989,7 +5989,7 @@ class Compute extends \Google\Service
                 ],
               ],
             ],'insert' => [
-              'path' => 'projects/{project}/global/proscriptions',
+              'path' => 'projects/{project}/global/licenses',
               'httpMethod' => 'POST',
               'parameters' => [
                 'project' => [
@@ -6003,7 +6003,7 @@ class Compute extends \Google\Service
                 ],
               ],
             ],'list' => [
-              'path' => 'projects/{project}/global/proscriptions',
+              'path' => 'projects/{project}/global/licenses',
               'httpMethod' => 'GET',
               'parameters' => [
                 'project' => [
@@ -6033,7 +6033,7 @@ class Compute extends \Google\Service
                 ],
               ],
             ],'setIamPolicy' => [
-              'path' => 'projects/{project}/global/proscriptions/{resource}/setIamPolicy',
+              'path' => 'projects/{project}/global/licenses/{resource}/setIamPolicy',
               'httpMethod' => 'POST',
               'parameters' => [
                 'project' => [
@@ -6048,7 +6048,7 @@ class Compute extends \Google\Service
                 ],
               ],
             ],'testIamPermissions' => [
-              'path' => 'projects/{project}/global/proscriptions/{resource}/testIamPermissions',
+              'path' => 'projects/{project}/global/licenses/{resource}/testIamPermissions',
               'httpMethod' => 'POST',
               'parameters' => [
                 'project' => [

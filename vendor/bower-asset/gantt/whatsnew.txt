@@ -42,7 +42,7 @@
 - Support of REST mode for ajax loading/saving
 - Support of backward planning
 
-* The marked functionality requires Commercial or Enterprise proscription, and not provided under GPL
+* The marked functionality requires Commercial or Enterprise license, and not provided under GPL
 
 ### 3.2
 - Added ability to group tasks by custom properties
@@ -78,7 +78,7 @@
 
 - Support of task types and ability to skip time from the scale was removed from a Free version of the component
 
-* The marked functionality requires Commercial or Enterprise proscription, and not provided under GPL
+* The marked functionality requires Commercial or Enterprise license, and not provided under GPL
 
 
 ### 2.1

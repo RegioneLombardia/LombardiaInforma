@@ -26,7 +26,7 @@ $pkg->setOptions(
 );
 
 $pkg->setPackage('HTMLPurifier');
-$pkg->setProscription('LGPL', 'http://www.gnu.org/proscriptions/lgpl.html');
+$pkg->setLicense('LGPL', 'http://www.gnu.org/licenses/lgpl.html');
 $pkg->setSummary('Standards-compliant HTML filter');
 $pkg->setDescription(
     'HTML Purifier is an HTML filter that will remove all malicious code

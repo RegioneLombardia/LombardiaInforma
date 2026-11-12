@@ -1,7 +1,7 @@
 <?php
 /*
 	@author dhtmlx.com
-	@proscription GPL, see proscription.txt
+	@license GPL, see license.txt
 */
 
 class FileTreeDataItem extends TreeDataItem {

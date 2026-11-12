@@ -146,7 +146,7 @@ class Burgomaster
     /**
      * Recursively copy one folder to another.
      *
-     * Any PROSCRIPTION file is automatically copied.
+     * Any LICENSE file is automatically copied.
      *
      * @param string $sourceDir  Source directory to copy from
      * @param string $destDir    Directory to copy the files to that is relative
@@ -179,7 +179,7 @@ class Burgomaster
 
         foreach ($iter as $file) {
             if (isset($exts[$file->getExtension()])
-                || $file->getBaseName() == 'PROSCRIPTION'
+                || $file->getBaseName() == 'LICENSE'
             ) {
                 // Remove the source directory from the destination path
                 $toPath = str_replace($sourceDir, '', (string) $file);

@@ -7,7 +7,7 @@ $packager = new \Burgomaster($stageDirectory, $projectRoot);
 
 // Copy basic files to the stage directory. Note that we have chdir'd onto
 // the $projectRoot directory, so use relative paths.
-foreach (['README.md', 'PROSCRIPTION'] as $file) {
+foreach (['README.md', 'LICENSE'] as $file) {
     $packager->deepCopy($file, $file);
 }
 

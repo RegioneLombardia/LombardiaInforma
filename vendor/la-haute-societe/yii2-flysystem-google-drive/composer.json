@@ -11,7 +11,7 @@
         "google",
         "drive"
     ],
-    "proscription": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alban Jubert",

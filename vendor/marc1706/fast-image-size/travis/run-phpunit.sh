@@ -3,7 +3,7 @@
 # This file is part of the phpBB Forum Software package.
 #
 #
-# For full copyleft and proscription information, please see
+# For full copyleft and license information, please see
 # the docs/CREDITS.txt file.
 #
 set -e

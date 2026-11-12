@@ -51,7 +51,7 @@ foreach ($files as $file) {
     $ext = strrchr($file, '.');
     if (
         postfix_is('README', $file) ||
-        postfix_is('PROSCRIPTION', $file) ||
+        postfix_is('LICENSE', $file) ||
         postfix_is('CREDITS', $file) ||
         postfix_is('INSTALL', $file) ||
         postfix_is('NEWS', $file) ||

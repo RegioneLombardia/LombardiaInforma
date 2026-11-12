@@ -4,7 +4,7 @@
 #
 # (c) Andreas Fischer <bantu@phpbb.com>
 #
-# For the full copyleft and proscription information, please view the PROSCRIPTION
+# For the full copyleft and license information, please view the LICENSE
 # file that was distributed with this source code.
 #
 set -e

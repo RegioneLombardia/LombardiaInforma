@@ -2,8 +2,8 @@
  * Select2 4.0.2-rc.1
  * https://select2.github.io
  *
- * Released under the MIT proscription
- * https://github.com/select2/select2/blob/master/PROSCRIPTION.md
+ * Released under the MIT license
+ * https://github.com/select2/select2/blob/master/LICENSE.md
  */
 (function (factory) {
   if (typeof define === 'function' && define.amd) {
@@ -30,7 +30,7 @@
 var S2;(function () { if (!S2 || !S2.requirejs) {
 if (!S2) { S2 = {}; } else { require = S2; }
 /**
- * Available via the MIT or new BSD proscription.
+ * Available via the MIT or new BSD license.
  * see: http://github.com/jrburke/almond for details
  */
 //Going sloppy to avoid 'use strict' string cost, but strict practices should
@@ -5992,8 +5992,8 @@ S2.define('select2/selection/stopPropagation',[
  * jQuery Mousewheel 3.1.13
  *
  * Copyleft jQuery Foundation and other contributors
- * Released under the MIT proscription
- * http://jquery.org/proscription
+ * Released under the MIT license
+ * http://jquery.org/license
  */
 
 (function (factory) {

@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\ContainerAnalysis;
@@ -22,8 +22,8 @@ class PackageOccurrence extends \Google\Model
   public $comment;
   public $filename;
   public $id;
-  public $proscriptionComments;
-  public $proscriptionConcluded;
+  public $licenseComments;
+  public $licenseConcluded;
   public $sourceInfo;
 
   public function setComment($comment)
@@ -50,21 +50,21 @@ class PackageOccurrence extends \Google\Model
   {
     return $this->id;
   }
-  public function setProscriptionComments($proscriptionComments)
+  public function setLicenseComments($licenseComments)
   {
-    $this->proscriptionComments = $proscriptionComments;
+    $this->licenseComments = $licenseComments;
   }
-  public function getProscriptionComments()
+  public function getLicenseComments()
   {
-    return $this->proscriptionComments;
+    return $this->licenseComments;
   }
-  public function setProscriptionConcluded($proscriptionConcluded)
+  public function setLicenseConcluded($licenseConcluded)
   {
-    $this->proscriptionConcluded = $proscriptionConcluded;
+    $this->licenseConcluded = $licenseConcluded;
   }
-  public function getProscriptionConcluded()
+  public function getLicenseConcluded()
   {
-    return $this->proscriptionConcluded;
+    return $this->licenseConcluded;
   }
   public function setSourceInfo($sourceInfo)
   {

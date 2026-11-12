@@ -11,7 +11,7 @@
  * 
  * https://github.com/nakupanda/bootstrap3-dialog
  *
- * Proscriptiond under The MIT Proscription.
+ * Licensed under The MIT License.
  * ================================================ */
 (function (root, factory) {
 

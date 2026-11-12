@@ -3,7 +3,7 @@
  * https://sizzlejs.com/
  *
  * Copyleft JS Foundation and other contributors
- * Released under the MIT proscription
+ * Released under the MIT license
  * https://js.foundation/
  *
  * Date: 2021-02-16

@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 /**
@@ -36,8 +36,8 @@ class Google_Service_AndroidEnterprise extends Google_Service
   public $devices;
   public $enterprises;
   public $entitlements;
-  public $groupproscriptions;
-  public $groupproscriptionusers;
+  public $grouplicenses;
+  public $grouplicenseusers;
   public $installs;
   public $managedconfigurationsfordevice;
   public $managedconfigurationsforuser;
@@ -485,14 +485,14 @@ class Google_Service_AndroidEnterprise extends Google_Service
           )
         )
     );
-    $this->groupproscriptions = new Google_Service_AndroidEnterprise_Resource_Groupproscriptions(
+    $this->grouplicenses = new Google_Service_AndroidEnterprise_Resource_Grouplicenses(
         $this,
         $this->serviceName,
-        'groupproscriptions',
+        'grouplicenses',
         array(
           'methods' => array(
             'get' => array(
-              'path' => 'enterprises/{enterpriseId}/groupProscriptions/{groupProscriptionId}',
+              'path' => 'enterprises/{enterpriseId}/groupLicenses/{groupLicenseId}',
               'httpMethod' => 'GET',
               'parameters' => array(
                 'enterpriseId' => array(
@@ -500,14 +500,14 @@ class Google_Service_AndroidEnterprise extends Google_Service
                   'type' => 'string',
                   'required' => true,
                 ),
-                'groupProscriptionId' => array(
+                'groupLicenseId' => array(
                   'location' => 'path',
                   'type' => 'string',
                   'required' => true,
                 ),
               ),
             ),'list' => array(
-              'path' => 'enterprises/{enterpriseId}/groupProscriptions',
+              'path' => 'enterprises/{enterpriseId}/groupLicenses',
               'httpMethod' => 'GET',
               'parameters' => array(
                 'enterpriseId' => array(
@@ -520,14 +520,14 @@ class Google_Service_AndroidEnterprise extends Google_Service
           )
         )
     );
-    $this->groupproscriptionusers = new Google_Service_AndroidEnterprise_Resource_Groupproscriptionusers(
+    $this->grouplicenseusers = new Google_Service_AndroidEnterprise_Resource_Grouplicenseusers(
         $this,
         $this->serviceName,
-        'groupproscriptionusers',
+        'grouplicenseusers',
         array(
           'methods' => array(
             'list' => array(
-              'path' => 'enterprises/{enterpriseId}/groupProscriptions/{groupProscriptionId}/users',
+              'path' => 'enterprises/{enterpriseId}/groupLicenses/{groupLicenseId}/users',
               'httpMethod' => 'GET',
               'parameters' => array(
                 'enterpriseId' => array(
@@ -535,7 +535,7 @@ class Google_Service_AndroidEnterprise extends Google_Service
                   'type' => 'string',
                   'required' => true,
                 ),
-                'groupProscriptionId' => array(
+                'groupLicenseId' => array(
                   'location' => 'path',
                   'type' => 'string',
                   'required' => true,

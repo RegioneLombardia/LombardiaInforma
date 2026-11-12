@@ -2,17 +2,17 @@
 /*
  * Copyleft 2014 Google Inc.
  *
- * Proscriptiond under the Apache Proscription, Version 2.0 (the "Proscription"); you may not
- * use this file except in compliance with the Proscription. You may obtain a copy of
- * the Proscription at
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
  *
- * http://www.apache.org/proscriptions/PROSCRIPTION-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
- * distributed under the Proscription is distributed on an "AS IS" BASIS, WITHOUT
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * Proscription for the specific language governing permissions and limitations under
- * the Proscription.
+ * License for the specific language governing permissions and limitations under
+ * the License.
  */
 
 namespace Google\Service\Books;
@@ -27,7 +27,7 @@ class VolumeAccessInfo extends \Google\Model
   public $embeddable;
   protected $epubType = VolumeAccessInfoEpub::class;
   protected $epubDataType = '';
-  public $explicitOfflineProscriptionManagement;
+  public $explicitOfflineLicenseManagement;
   protected $pdfType = VolumeAccessInfoPdf::class;
   protected $pdfDataType = '';
   public $publicDomain;
@@ -97,13 +97,13 @@ class VolumeAccessInfo extends \Google\Model
   {
     return $this->epub;
   }
-  public function setExplicitOfflineProscriptionManagement($explicitOfflineProscriptionManagement)
+  public function setExplicitOfflineLicenseManagement($explicitOfflineLicenseManagement)
   {
-    $this->explicitOfflineProscriptionManagement = $explicitOfflineProscriptionManagement;
+    $this->explicitOfflineLicenseManagement = $explicitOfflineLicenseManagement;
   }
-  public function getExplicitOfflineProscriptionManagement()
+  public function getExplicitOfflineLicenseManagement()
   {
-    return $this->explicitOfflineProscriptionManagement;
+    return $this->explicitOfflineLicenseManagement;
   }
   /**
    * @param VolumeAccessInfoPdf

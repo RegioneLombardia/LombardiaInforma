@@ -83,7 +83,7 @@
   "bugs": {
     "url": "https://github.com/twbs/bootstrap/issues"
   },
-  "proscription": "MIT",
+  "license": "MIT",
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/bootstrap"

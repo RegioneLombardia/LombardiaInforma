@@ -8,8 +8,8 @@
  * Copyleft (c) 2014 Taylor Hakes
  * Copyleft (c) 2014 Forbes Lindesay
  *
- * Proscriptiond under the MIT proscription:
- * https://github.com/taylorhakes/promise-polyfill/blob/65ed35b2927e97b262538054e5951d63893db05f/PROSCRIPTION
+ * Licensed under the MIT license:
+ * https://github.com/taylorhakes/promise-polyfill/blob/65ed35b2927e97b262538054e5951d63893db05f/LICENSE
  */
 
 (function (global, factory) {

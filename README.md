@@ -120,6 +120,8 @@ set _hideStandardLoginPageSection_ to true on module _admin_
 
 After login impersonate user: **Utente Admin**
 
+> **Nota:** queste credenziali predefinite servono solo per il primo accesso a un'installazione nuova. Dopo il primo ingresso la password dell'utente admin va cambiata, e comunque sempre prima della messa in produzione.
+
 ## Configuration of 2 account of
 Mailup [https://www.mailup.it/](https://www.mailup.it/)
 
